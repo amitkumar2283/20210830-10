@@ -1,0 +1,329 @@
+    1  ls
+    2  rm -rf terraform_0.15.3_linux_amd64.zip 
+    3  sudo systemctl start grafana-server
+    4  prometheus 
+    5  prometheus --config.file=/opt/prometheus-2.27/prometheus.yml
+    6  git --version
+    7  sudo su -
+    8  ll
+    9  sudo su -
+   10  ssh kslave1
+   11  sudo su -
+   12  sudo su -
+   13  terraform
+   14  terraform --versionm
+   15  terraform --version
+   16  apt upgrade terraform
+   17  sudo apt upgrade terraform
+   18  https://www.terraform.io/downloads.html
+   19  sudo apt-get update && sudo apt-get install -y gnupg software-properties-common curl
+   20  https://www.terraform.io/downloads.html
+   21  curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
+   22  https://www.terraform.io/downloads.html
+   23  sudo apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
+   24  sudo apt-get update && sudo apt-get install terraform
+   25  terraform --version
+   26  where terraform
+   27  which terraform
+   28  sudo su -
+   29  terraform --version
+   30  terraform version
+   31  wget https://releases.hashicorp.com/terraform/1.0.1/terraform_1.0.1_linux_amd64.zip
+   32  ll
+   33  unzip terraform_1.0.1_linux_amd64.zip 
+   34  ll
+   35  sudo cp terraform /usr/bin/ /usr/local/bin/
+   36  sudo cp terraform /usr/bin/terraform /usr/local/bin/teraform
+   37  sudo cp terraform /usr/bin/terraform
+   38  sudo cp terraform /usr/local/bin/teraform
+   39  terraform -install-autocomplete
+   40  sudo apt install awscli
+   41  aws configure
+   42  ll
+   43  aws configure
+   44  cd .aws/
+   45  ll
+   46  cd
+   47  mkdir terraform_demo
+   48  cd terraform_demo/
+   49  mkdir EC2
+   50  cd EC2/
+   51  vim main.tf
+   52  terraform validate
+   53  vim main.tf
+   54  terraform validate
+   55  terraform init
+   56  ll
+   57  tree .terraform
+   58  cat .terraform.lock.hcl 
+   59  terraform validate
+   60  terraform plan
+   61  terraform apply
+   62  ll
+   63  terraform state
+   64  terraform show
+   65  terraform list
+   66  terraform 
+   67  terraform state
+   68  terraform state list
+   69  terraform state show aws_instance.web
+   70  terraform show
+   71  terraform destroy
+   72  terraform apply -h
+   73  terraform apply -auto-approve
+   74  terraform refresh
+   75  terraform show
+   76  vim main.tf 
+   77  terraform apply -var "instance_name = myec2"
+   78  terraform validate
+   79  vim main.tf 
+   80  terraform apply -var "instance_name = myec2"
+   81  terraform apply -var "instance_name=myec2"
+   82  vim main.tf 
+   83  terraform apply -var "instance_name=myec2"
+   84  vim main.tf 
+   85  aws ec2 describe-instance
+   86  aws ec2 describe-instances
+   87  vim main.tf 
+   88  terraform show
+   89  vim main.tf 
+   90  terraform destroy
+   91  df -h
+   92  docker system prune
+   93  sudo docker system prune 
+   94  df -h
+   95  sudo su -
+   96  clear
+   97  df -h
+   98  exit
+   99  df -h
+  100  exit
+  101  df -h
+  102  clear
+  103  df -h
+  104  clear
+  105  ssh edureka@172.31.20.118
+  106  clear
+  107  ssh edureka@172.31.20.118
+  108  exit
+  109  ssh edureka@172.31.20.118
+  110  clear
+  111  ssh edureka@172.31.20.118
+  112  sudo su -
+  113  kubectl config view
+  114  kubectl get nodes
+  115  vim storageClass
+  116  kubectl apply -f storageClass 
+  117  vim storageClass
+  118  kubectl apply -f storageClass 
+  119  vim storageClass
+  120  kubectl apply -f storageClass 
+  121  vim statefulSet.yml
+  122  kubectl apply -f statefulSet.yml 
+  123  vim statefulSet.yml
+  124  kubectl apply -f statefulSet.yml 
+  125  vim statefulSet.yml
+  126  kubectl apply -f statefulSet.yml 
+  127  vim statefulSet.yml
+  128  kubectl apply -f statefulSet.yml 
+  129  kubectl get statefulsets
+  130  kubectl get svc
+  131  kubectl get pods
+  132  kubectl describe pod web-0
+  133  kubectl get pvc
+  134  kubectl get storageclass
+  135  kubectl get storageClass 
+  136  kubectl apply -f storageClass 
+  137  kubectl get pv
+  138  kubectl get pvc
+  139  kubectl describe pvc www-web-0
+  140  vim storageClass 
+  141  kubectl apply -f storageClass 
+  142  kubectl describe pvc www-web-0
+  143  kubectl get pv
+  144  kubectl get pvc
+  145  kubectl delete -f statefulSet.yml 
+  146  vim statefulSet.yml 
+  147  kubectl apply statefulSet.yml 
+  148  kubectl apply -f statefulSet.yml 
+  149  kubectl get pvc
+  150  kubectl get pods
+  151  kubectl describe pod web-0
+  152  kubectl describe pvc
+  153  kubectl delete pvc www-web-0
+  154  kubectl describe pod web-0
+  155  kubectl delete -f statefulSet.yml 
+  156  kubectl delete all --all 
+  157  kubectl get nodes
+  158  kubectl get all
+  159  vim storageClass 
+  160  kubectl apply -f statefulSet.yml 
+  161  kubectl apply -f storageClass 
+  162  kubectl get pod
+  163  kubectl describe pod web-1
+  164  kubectl get pvc
+  165  kubectl get pv
+  166  kubectl describe pv
+  167  sudo service grafana status
+  168  sudo /opt/prometheus-2.27/prometheus --config.file=/opt/prometheus-
+  169  sudo /opt/prometheus-2.27/prometheus --config.file=/opt/prometheus-2.27/prometheus.yml &
+  170  curl localhost:9090
+  171  sudo systemctl start grafana-server
+  172  sudo systemctl status grafana-server
+  173  sudo systemctl stop grafana-server
+  174  ll
+  175  mkdir demo
+  176  cd demo/
+  177  ll
+  178  mkdir 20210830-10
+  179  cd 20210830-10/
+  180  ll
+  181  git clone https://github.com/amitkumar2283/20210830-10.git
+  182  ll
+  183  cd 20210830-10/
+  184  ll
+  185  cd .git/
+  186  ll
+  187  cd objects/
+  188  ll
+  189  cd ../..
+  190  ll
+  191  vim firstfile.java
+  192  ll
+  193  git status
+  194  git add firstfile.java 
+  195  git status
+  196  git commit -m "my first commit"
+  197  git config --global user.email "amitkumar2283@gmail.com"
+  198  git config --global user.name "Amit Kumar"
+  199  git commit -m "my first commit"
+  200  git status
+  201  vim README.md 
+  202  vim firstfile.java 
+  203  git status
+  204  git add .
+  205  git status
+  206  git commit -h
+  207  ll
+  208  cd demo/
+  209  ll
+  210  mkdir 20210830-6
+  211  ll
+  212  cd 20210830-6
+  213  ll
+  214  git
+  215  apt install git
+  216  sudo apt install git
+  217  git version
+  218  git clone edureka@kmaster:~/demo/20210830-6$ git config --global user.name "^Cit Kumar"
+  219  (failed reverse-i-search)`cognig': git ^Cmmit -h
+  220  edureka@kmaster:~/demo/20210830-6$ ^C
+  221  edureka@kmaster:~/demo/20210830-6$ git config --global user.email "amitkumar2283@gmail.com"
+  222  git clone https://github.com/amitkumar2283/20210830-6
+  223  ll
+  224  cd 20210830-6/
+  225  ll
+  226  cd .git
+  227  ll
+  228  cd ..
+  229  ll
+  230  vim firstfile
+  231  ll
+  232  git status
+  233  vim README.md 
+  234  git status
+  235  git add README.md 
+  236  git status
+  237  git add firstfile 
+  238  cls
+  239  clear
+  240  git status
+  241  git commit -m "first commit"
+  242  git status
+  243  vim README.md 
+  244  git status
+  245  git add README.md 
+  246  ll
+  247  git status
+  248  git reset HEAD README.md
+  249  vim firstfile 
+  250  git status
+  251  ll
+  252  cd demo/
+  253  ll
+  254  cd 20210830-10/
+  255  ll
+  256  cd 20210830-10/
+  257  ll
+  258  git log
+  259  git show b0ac475caaedc4376779eb19617e187f5666632b
+  260  git log
+  261  git show fcca3c57307
+  262  git status
+  263  vim firstfile.java 
+  264  git status
+  265  git add firstfile.java 
+  266  git status
+  267  git reset HEAD README.md
+  268  git status
+  269  git reset firstfile.java
+  270  git status
+  271  git commit -a -m "two file changes"
+  272  git status
+  273  git log
+  274* git show e262c89
+  275  git log
+  276  git log --pretty=oneline
+  277  git log -h
+  278  git log -n 2
+  279  git log --oneline
+  280  git log --oneline -n 2
+  281  git log --oneline --since saturday
+  282  git log --oneline --since monday
+  283  git log --oneline --since tuesday
+  284  git log --oneline --since -h
+  285  git log --oneline --since "1 day ago"
+  286  git log --oneline --since "2021-08-10"
+  287  ll
+  288  git rm firstfile.java 
+  289  git status
+  290  ll
+  291  git commit -m "delete firstfile"
+  292  git log -oneline
+  293  git log --oneline
+  294  git status
+  295  ll
+  296  touch output.bin
+  297  touch test_report.html
+  298  ll
+  299  git status
+  300  vim README.md 
+  301  git status
+  302  vim .gitignore
+  303  ll
+  304  git status
+  305  vim .gitignore
+  306  touch my.html
+  307  touch some.html
+  308  ll
+  309  git status
+  310  mkdir test_reports
+  311  touch test_report/unit_test.html
+  312  touch test_reports/unit_test.html
+  313  ll
+  314  ll test_reports
+  315  git status
+  316  touch test_reports/unit_test.xml
+  317  git status
+  318  vim .gitignore 
+  319  git status
+  320  git commit -a -m "add gitignore and readme.md modifications"
+  321  git status
+  322  git add .gitignore 
+  323  git commit -m "add gitignore"
+  324  git log --oneline
+  325  cat .gitignore 
+  326  history
+  327  ll
+  328  touch commands.txt
+  329  history >> commands.txt 
