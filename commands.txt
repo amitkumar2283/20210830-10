@@ -327,3 +327,139 @@
   327  ll
   328  touch commands.txt
   329  history >> commands.txt 
+  330  vim commands.txt 
+  331  ll
+  332  git remote 
+  333  git remote -v
+  334  git push
+  335  cd
+  336  ssh-keygen 
+  337  cd /home/edureka/.ssh
+  338  ll
+  339  cat id_rsa.pub 
+  340  cd
+  341  cd demo/20210830-10/
+  342  ll
+  343  mkdir ssh-demo
+  344  cd ssh-demo/
+  345  git clone git@github.com:amitkumar2283/20210830-10.git
+  346  ll
+  347  git clone git@github.com:amitkumar2283/20210830-10.git -vvv
+  348  telnet github 22
+  349  telnet github.com:22
+  350  telnet github.com 22
+  351  cd ..
+  352  cd 20210830-10/
+  353  git remote -h
+  354  git remote set-url origin https://amitkumar2283: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@github.com/amitkumar2283/20210830-10.git
+  355  git remote -v
+  356  git push
+  357  git remote
+  358  git remote -v
+  359  vim anotherfile
+  360  git status
+  361  git add .
+  362  git commit -m "add commands dump"
+  363  git log
+  364  git push
+  365  sudo apt install git-gui
+  366  gitk
+  367  git log
+  368  git log --oneline
+  369  git tag -h
+  370  git log --oneline
+  371  git tag customer-demo-01 e58df29
+  372  git log --oneline
+  373  git tag -l
+  374  git show customer-demo-01
+  375  git tag release_0.1 6e7d942
+  376  git log
+  377  git log --oneline
+  378  git push --tags
+  379  git tag -h
+  380  git tag -d customer-demo-01 
+  381  git push --all
+  382  ll
+  383  git log
+  384  ll
+  385  git log --oneline
+  386  ll
+  387  git checkout 6e7d942
+  388  ll
+  389  git log --oneline
+  390  git checkout b0ac475
+  391  ll
+  392  git checkout fcca3c5
+  393  ll
+  394  git checkout main
+  395  ll
+  396  git status
+  397  git log --oneline
+  398  git branch
+  399  git branch facebook
+  400  git branch
+  401  git log --oneline
+  402  git checkout facebook 
+  403  git branch
+  404  ll
+  405  git reset --hard
+  406  ll
+  407  git reset -h
+  408  git reset --hard
+  409  git reset
+  410  ll
+  411  git clean
+  412  git clean -f
+  413  git status
+  414  ll
+  415  rm -f test_report.html 
+  416  rm -rd test_reports/
+  417  rm -rf test_reports/
+  418  rm -f *.html
+  419  ll
+  420  rm output.bin 
+  421  ll
+  422  git status
+  423  git branch
+  424  git status
+  425  vim facebook
+  426  git status
+  427  git add .
+  428  git status
+  429  git commit -m "committing facebook file"
+  430  git git log
+  431  git log
+  432  git log --oneline
+  433  git log --oneline --graph
+  434  git log --oneline --graph --all
+  435  git log --oneline --graph --all --decorate
+  436  git log --oneline
+  437  ll
+  438  git checkout main
+  439  ll
+  440  git log
+  441  git log --oneline
+  442  vim main
+  443  git add main 
+  444  git commit -m "main file committed"
+  445  git branch
+  446  git log
+  447  git log --oneline
+  448  git log --oneline --graph --all
+  449  git branch google -h
+  450  git log --oneline --graph --all
+  451  git branch google e262c89
+  452  git log --oneline --graph --all
+  453  git branch
+  454  git checkout google 
+  455  ll
+  456  vim google
+  457  git add .
+  458  git commit -m "google"
+  459  git log --oneline --graph --all
+  460  git branch
+  461  git push origin google
+  462  git push --all
+  463  git branch
+  464  git checkout main
+  465  history > commands.txt 
